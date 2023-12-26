@@ -5,6 +5,6 @@ class Overworld {
         this.ctx = this.canvas.getContext("2d");
     }
     init() {
-        console.log("Overworld connected!")
+        console.log("Overworld connected!", this);
     }
 }
