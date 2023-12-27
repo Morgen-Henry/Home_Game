@@ -15,4 +15,6 @@ body {
     height: 198px;
     margin: 0 auto;
     outline: 1px solid white;
+
+    transform: scale(3) translate(50%);
 }
