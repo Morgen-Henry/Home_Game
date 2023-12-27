@@ -16,5 +16,5 @@ body {
     margin: 0 auto;
     outline: 1px solid white;
 
-    transform: scale(3) translate(50%);
+    transform: scale(3) translate(0%);
 }
