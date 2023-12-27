@@ -5,6 +5,10 @@ class Overworld {
         this.ctx = this.canvas.getContext("2d");
     }
     init() {
-        console.log("Overworld connected!", this);
+        const image = new Image();
+        image.onload = () => {
+            this.ctx.drawImage(image,0,0)
+        };
+        image.scr = "Images/MorgenRoom.png"
     }
 }
