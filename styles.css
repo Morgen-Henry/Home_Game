@@ -12,9 +12,13 @@ body {
 .game-container {
     position: relative;
     width: 352px;
-    height: 750px;
+    height: 198px;
     margin: 0 auto;
     outline: 1px solid white;
 
     transform: scale(2) translate(50%);
+}
+
+.game-container canvas {
+    image-rendering: pixelated;
 }
