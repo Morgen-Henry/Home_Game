@@ -16,7 +16,7 @@ body {
     margin: 0px auto;
     border: 5px solid gray;
 
-    transform: scale(2) translateY(50%);
+    transform: scale(1) translateY(50%);
 }
 
 .game-container canvas {
